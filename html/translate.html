@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> TRANSLATE</title>
+</head>
+<style>
+#total{
+display:grid;
+height:500px;
+width:500px;
+grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.img_hello3:hover{
+transform:rotate(180deg)
+}
+.img_hello1:hover{
+transform:rotate(360deg)
+}
+.img_hello2:hover{
+transform:rotate(0deg)
+}
+.img_hello1{
+justify-content:center;
+align-items:center;
+position:relative;
+transition-duration:3s
+}
+.img_hello2{
+justify-content:center;
+align-items:center;
+position:relative;
+transform:scale(0.5)
+}
+.img_hello3{
+justify-content:center;
+align-items:center;
+position:relative;
+transition-duration:1s;
+transition-delay:0.2s
+}
+
+.img_hello4:hover{
+transform:translate(0px,200px);
+trasform:scale(100px,100px)
+}
+.img_hello4{
+justify-content:center;
+align-items:center;
+position:relative;
+transition-duration:3s
+}
+.img_hello5:hover{
+transform:translate(0px,-200px);
+trasform:scale(0px,100px)
+}
+.img_hello5{
+justify-content:center;
+align-items:center;
+position:relative;
+transition-duration:3s
+}
+.img_hello6:hover{
+transform:rotate(-360deg);
+}
+.img_hello6{
+justify-content:center;
+align-items:center;
+position:relative;
+transition-duration:3s
+}
+}
+.img_hello7:hover{
+transform:rotate(180deg)
+}
+.img_hello7{
+justify-content:center;
+align-items:center;
+position:relative;
+transform:scale(1);
+transition-duration:3s
+}
+</style>
+<body>
+<div id="total">
+<div class="img_hello img_hello1"><img src="../IMAGE/IMAGE23.jpg"/></div>
+<div class="img_hello img_hello2"><img src="../IMAGE/IMAGE22.jpg"/></div>
+<div class="img_hello img_hello3"><img src="../IMAGE/IMAGE21.jpg"/></div>
+<div class="img_hello img_hello4"><img src="../IMAGE/IMAGE24.jpg"/></div>
+<div class="img_hello img_hello5"><img src="../IMAGE/IMAGE25.jpg"/></div>
+<div class="img_hello img_hello6"><img src="../IMAGE/IMAGE26.jpg"/></div>
+<div class="img_hello img_hello7"><img src="../IMAGE/IMAGE27.jpg"/></div>
+<div class="img_hello img_hello8"><img src="../IMAGE/IMAGE28.jpg"/></div>
+</div>
+</body>
+</html>

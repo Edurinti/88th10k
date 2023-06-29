@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RAVANA</title>
+<style>
+#header{
+display:grid;
+background-color:azure;
+grid-template-columns:3fr 1fr;
+grid-template-size:10px 20px;
+}
+ .gif_child{
+justify-content:center;
+align-items:center;
+position:relative;
+top:150px;
+} 
+#footer{
+padding:150px;
+background-color:green;
+}
+.sheepgif_child {
+justify-content:center;
+align-items:center;
+position:relative;
+top:-150px;
+right:100px;
+}
+#content{
+display:grid;
+background-color:sliver;
+grid-template-columns:2fr 1fr;
+}
+.cowgif_child{
+justify-content:center;
+align-items:center;
+position:relative;
+top:150px;
+left:200px;
+
+}
+.gif_child1{
+postion:absolute;
+right:50px;
+}
+.gif_child2{
+postion:absolute;
+top:50px;
+width:50px;
+heigth:100px;
+}
+.gif1_child1{
+postion:absolute;
+left:100px;
+width:50px;
+heigth:100px;
+}
+</style>
+</head>
+<body>
+<div id="layout">
+<div id="header">
+<div class="gif_child gif_child1"><img src="../gif/flying.gif"/></div>
+<div class="gif_child gif_child2"><img src="../gif/1clouds.gif"/></div>
+</div>
+<div class="banner">
+</div>
+<div id="content">
+<div class="cowgif_child gif1_child1"><img src="../gif/cow1.gif"/></div>
+<div class="cowgif_child gif1_child2"><img src="../gif/tree2.gif"/></div>
+<div class="cowgif_child gif1_child3"></div>
+</div>
+<div id="footer">
+<div class="sheepgif_child gif2_child1"><img src="../gif/goat2.gif"/></div>
+</div>
+</body>
+</html>
